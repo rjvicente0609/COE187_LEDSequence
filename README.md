@@ -1,8 +1,13 @@
 ## Description
 
-A basic getting started program.
+Sequence
 
-This version of Hello_World prints an incrementing count to the console UART and toggles an LED once every 500 ms.
+Progressive Stacking Runner Sequence (Left-to-Right)
+	In this mode, a single runner LED moves sequentially from the leftmost LED to the rightmost LED, and each time the runner reaches the end, that LED becomes permanently latched ON, causing the illuminated LEDs to stack progressively from right to left until all LEDs remain ON.
+  
+Progressive Stacking Runner Sequence (Right-to-Left) 
+	When the button is pressed, the runner LED travels from the rightmost LED to the leftmost LED, and whenever it reaches the end of the strip, that LED is locked ON, producing a progressive stacking effect from left to right until the entire LED array is illuminated.
+
 
 ## Software
 
